@@ -277,5 +277,5 @@ pip3 install -r requirements.txt --user
 ## 🆘 获取帮助
 
 - **Discord**: [加入社区](https://discord.gg/xxx)
-- **Email**: nero@example.com
+- **Email**: zcweah@gmail.com
 - **GitHub Issues**: [提交问题](https://github.com/your-username/nero-market-research/issues)

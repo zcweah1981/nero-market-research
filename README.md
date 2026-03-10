@@ -315,7 +315,7 @@ curl -X POST https://translate.example.com/translate \
 
 MIT License
 
-Copyright (c) 2026 Nero Team
+Copyright (c) 2026 Pascal AI Team
 
 详见 [LICENSE](LICENSE) 文件
 
@@ -331,10 +331,9 @@ Copyright (c) 2026 Nero Team
 
 ## 📮 联系方式
 
-- **作者**: Nero Team
-- **Email**: nero@example.com
-- **Discord**: [加入社区](https://discord.gg/xxx)
-- **Twitter**: [@nero_ai](https://twitter.com/nero_ai)
+- **作者**: Pascal AI Team
+- **Email**: zcweah@gmail.com
+- **Twitter**: [@zhngchng231034](https://twitter.com/zhngchng231034)
 
 ---
 
