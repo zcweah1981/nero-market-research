@@ -1,0 +1,70 @@
+{
+  "notion": {
+    "api_key": "ntn_your_notion_api_key_here",
+    "database_id": "your_opportunities_database_id_here",
+    "daily_report_db_id": "your_daily_report_database_id_here"
+  },
+  "translation": {
+    "api_url": "https://translate.example.com",
+    "api_token": "your_libretranslate_token_here",
+    "cache_dir": "memory/translation_cache"
+  },
+  "search": {
+    "primary_url": "http://localhost:8080",
+    "fallback_url": "https://search.example.com",
+    "api_token": "your_searxng_token_here",
+    "timeout": 20,
+    "engines": ["duckduckgo", "google", "startpage"]
+  },
+  "execution": {
+    "timezone": "Asia/Shanghai",
+    "daily_report_time": "21:00",
+    "weekly_mvp_time": "Monday 02:00",
+    "cleanup_time": "Monday 04:00",
+    "execution_interval_hours": 1,
+    "max_concurrent_miners": 1
+  },
+  "scoring": {
+    "min_score_to_keep": 50,
+    "kill_switch_enabled": true,
+    "playbook_tags": [
+      "Micro-SaaS",
+      "生态插件",
+      "高价竞品平替",
+      "API/自动化胶水"
+    ]
+  },
+  "telegram": {
+    "enabled": false,
+    "bot_token": "your_telegram_bot_token",
+    "chat_id": "your_telegram_chat_id"
+  },
+  "logging": {
+    "level": "INFO",
+    "log_dir": "logs",
+    "max_log_files": 30
+  },
+  "data_sources": {
+    "reddit": {
+      "enabled": true,
+      "subreddits_file": "config/reddit_mines.json",
+      "keywords_file": "config/keywords.json"
+    },
+    "twitter": {
+      "enabled": true,
+      "keywords_file": "config/twitter_keywords.json"
+    },
+    "github": {
+      "enabled": true,
+      "repos_file": "config/github_repos.json"
+    },
+    "producthunt": {
+      "enabled": true,
+      "products_file": "config/producthunt_products.json"
+    },
+    "other": {
+      "enabled": true,
+      "platforms_file": "config/other_platforms.json"
+    }
+  }
+}
